@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+        
+    </head>
+    <body>
+
+        Name<input type="text" id="myname">
+        <br>
+        <button id="mybtn">Click</button>
+
+       
+        <script type="text/javascript">
+
+          var getbtnId = document.getElementById("mybtn");
+          getbtnId.addEventListener("click",function(){
+
+            var getName = document.getElementById("myname").value;
+            alert('Hellow '+getName);
+          })
+
+        </script>
+
+
+    </body>
+</html>
